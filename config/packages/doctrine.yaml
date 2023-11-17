@@ -1,6 +1,7 @@
 doctrine:
     dbal:
-        url: '%env(resolve:DATABASE_URL)%'
+        # url: '%env(resolve:DATABASE_URL)%'
+        url: 'postgres://kchpithhwzjfyt:1a1085341749185bc591634759aa6dd6e31e43643a4b118cb857802e3dcff2ec@ec2-35-169-9-79.compute-1.amazonaws.com:5432/d62f5qmnv9jcne'
 
         # IMPORTANT: You MUST configure your server version,
         # either here or in the DATABASE_URL env var (see .env file)
